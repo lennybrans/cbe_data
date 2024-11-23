@@ -2,3 +2,4 @@
 .env
 data/*
 test.py
+excel/*
