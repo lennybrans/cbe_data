@@ -1,3 +1,8 @@
+"""
+The CBE data contains various codes that refer to a label. To replace these 
+codes with understandable strings, use df.replace({"col": dct}).
+"""
+
 StopReason_dct = {
     '006': 'Cessation due to company number replacement', 
     '010': 'Ex officio dissolution', 
