@@ -40,11 +40,16 @@ dtype_dict = {
     'JuridicalFormCAC': str,
 }
 
-activity = pd.read_csv('data/activity.csv', dtype=dtype_dict)
-address = pd.read_csv('data/address.csv', dtype=dtype_dict)
-denomination = pd.read_csv('data/denomination.csv', dtype=dtype_dict)
-enterprise = pd.read_csv('data/enterprise.csv', dtype=dtype_dict)
-establishment = pd.read_csv('data/establishment.csv', dtype=dtype_dict)
+activity = pd.read_csv(
+    filepath + 'data/activity.csv', dtype=dtype_dict)
+address = pd.read_csv(
+    filepath + 'data/address.csv', dtype=dtype_dict)
+denomination = pd.read_csv(
+    filepath + 'data/denomination.csv', dtype=dtype_dict)
+enterprise = pd.read_csv(
+    filepath + 'data/enterprise.csv', dtype=dtype_dict)
+establishment = pd.read_csv(
+    filepath + 'data/establishment.csv', dtype=dtype_dict)
 
 
 StopReason_dct = {
