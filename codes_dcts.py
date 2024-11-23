@@ -36,7 +36,7 @@ StopReason_dct = {
     '999': 'Cancelled file'
     }
 
-TypeOf_dct = {
+TypeOfEnterprise_dct = {                    # Not yet certain
     '1': 'Registered entity natural person', 
     '2': 'Registered entity legal person'
     }
@@ -488,3 +488,17 @@ ActivityGroup_dct = {
     '006': 'RSZ-activiteiten',
     '007': 'Activiteiten gesubsidieerd onderwijs',
     }
+
+Language_dct = {
+    '1': 'French',
+    '2': 'Dutch',
+    '3': 'German',
+    '4': 'English',
+    }
+
+TypeOfDenomination_dct = {
+    '001': 'Name',
+    '002': 'Abbreviation',
+    '003': 'Trade Name',
+    '004': 'Branch Name',
+}
