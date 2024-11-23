@@ -472,3 +472,14 @@ StopReasonLinkedEnterprise_dct = {
     '111': 'Striking off following the cessation in a register in the EEA',
     '999': 'File cancelled',
     }
+
+ActivityGroup_dct = {
+    '001': 'BTW-activiteiten',
+    '002': 'EDRL-activiteiten (Buitenlandse bedrijven zonder vestiging in '
+    'België)',
+    '003': 'Activiteiten',
+    '004': 'Activiteiten federaal openbaar ambt',
+    '005': 'RSZPPO-activiteiten (RSZ v. Prov. en Plaatselijke Overheden)',
+    '006': 'RSZ-activiteiten',
+    '007': 'Activiteiten gesubsidieerd onderwijs',
+    }
